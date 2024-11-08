@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Basics Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="homePage" class="container">
+        <h1>JavaScript Basics Quiz</h1>
+        <button id="startBtn" class="btn">Start Quiz</button>
+    </div>
+
+    <div id="quizPage" class="container" style="display: none;">
+        <div id="questionContainer">
+            <p id="questionText"></p>
+            <div id="answerOptions"></div>
+        </div>
+        <button id="nextBtn" class="btn" style="display: none;">Next Question</button>
+    </div>
+
+    <div id="resultPage" class="container" style="display: none;">
+        <h2>Your Score: <span id="score"></span></h2>
+        <button id="retryBtn" class="btn">Retry Quiz</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
